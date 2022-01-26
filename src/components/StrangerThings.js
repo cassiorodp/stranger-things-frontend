@@ -8,6 +8,8 @@ const getRealityClass = (hereIsTheUpsideDownWorld) => (
   hereIsTheUpsideDownWorld ? 'upside-down' : 'stranger-things'
 );
 
+const DEVELOPMENT = JSON.parse(process.env.REACT_APP_DEVELOPMENT) || false;
+
 const DEFAULT_TIMEOUT = 30000;
 
 const strangerThingsConfig = {
@@ -124,7 +126,8 @@ class StrangerThings extends React.Component {
               Mudar de Realidade
             </button>
           </div>
-
+          {DEVELOPMENT
+          && <div className="content strangerfy"><h1>Em desenvolvimento</h1></div>}
           <div>
             <input
               placeholder="Nome do Personagem"
