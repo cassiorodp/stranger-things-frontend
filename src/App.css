@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .App {
   height: 100vh;
@@ -43,7 +43,7 @@
 
 .reality {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   height: 100%;
   width: 100%;
 
@@ -56,12 +56,12 @@
 
 .stranger-things {
   background-image: url('./assets/stranger-things.jpg');
-  background-position: left;
+  background-position: top;
 }
 
 .upside-down {
   background-image: url('./assets/upside-down.jpg');
-  background-position: right;
+  background-position: bottom;
 }
 
 .change-reality {
