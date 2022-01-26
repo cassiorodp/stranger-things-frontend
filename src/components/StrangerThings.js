@@ -9,7 +9,7 @@ const getRealityClass = (hereIsTheUpsideDownWorld) => (
 );
 
 const DEVELOPMENT = JSON.parse(process.env.REACT_APP_DEVELOPMENT) || false;
-
+console.log(DEVELOPMENT);
 const DEFAULT_TIMEOUT = 30000;
 
 const strangerThingsConfig = {
