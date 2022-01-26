@@ -55,12 +55,12 @@
 }
 
 .stranger-things {
-  background-image: url('./assets/stranger-things.png');
+  background-image: url('./assets/stranger-things.jpg');
   background-position: top;
 }
 
 .upside-down {
-  background-image: url('./assets/upside-down.png');
+  background-image: url('./assets/upside-down.jpg');
   background-position: bottom;
 }
 
